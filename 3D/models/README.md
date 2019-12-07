@@ -1,0 +1,1 @@
+In this folder, the trained inverse kinematic model will be stored.
