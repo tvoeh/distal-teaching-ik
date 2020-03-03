@@ -3,7 +3,7 @@
 This repository contains the main source code to perform a detailed evaluation of distal teaching, a machine learning approach to solve the inverse kinematics problem, under known forward kinematics.
 For three serial and rigid mechanisms of different complexity (3-DoF (planar), 6-DoF and 15-DoF), the provided code enables to train and evaluate an inverse kinematic model via distal teaching using [Keras](https://keras.io/) and [TensorFlow](https://www.tensorflow.org/).
 Further, analytical solutions are provided in native Python for the 3-DoF and 6-DoF mechanisms and the numerical solver [TRAC-IK](http://wiki.ros.org/trac_ik) can be used for all three mechanisms as a comparison.
-The results in *"Comparison of Distal Teacher Learning with Numerical and Analytical Methods to Solve Inverse Kinematics for Rigid-Body Mechanisms"* are based on this implementation.
+The results in *[Comparison of Distal Teacher Learning with Numerical and Analytical Methods to Solve Inverse Kinematics for Rigid-Body Mechanisms](https://arxiv.org/abs/2003.00225)* are based on this implementation.
 
 # Folder Structure
 - The folder *2D/* contains a very basic implementation of distal teaching specifically for planar arms.
