@@ -1,5 +1,5 @@
 numpy
 matplotlib
-tensorflow-gpu==1.12.0
+tensorflow-gpu==2.6.4
 pytransform3d
 
